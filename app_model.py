@@ -60,7 +60,7 @@ def retrain(): # Ligado al endpoint '/api/v1/retrain/', metodo GET
     else:
         return f"<h2>New data for retrain NOT FOUND. Nothing done!</h2>"
 
-if __name__ == '__main__':
+if __name__ == '__main__': #debug=False cuando online
     app.run(debug=True)
 
 #ruta predict ?tv=200&radio=100&newspaper=37
