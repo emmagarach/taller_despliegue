@@ -37,6 +37,8 @@ def predict(): # Ligado al endpoint '/api/v1/predict', con el método GET
     
     return jsonify({'predictions': prediction[0]})
 
+  
+
 # Enruta la funcion al endpoint /api/v1/retrain
 @app.route("/api/v1/retrain/", methods=["GET"])
 def retrain(): # Ligado al endpoint '/api/v1/retrain/', metodo GET
